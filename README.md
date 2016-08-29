@@ -6,7 +6,10 @@ Super simple Java based client for [dump1090][dump1090] SBS1 (BaseStation) servi
 
 ## Prerequisites
 
-You will need a running instance of Dump1090 as well as a MongoDB database. You will also need a recent JVM and Maven to install and run this program. If you don't want to use Maven you can still manually compile the .java files and make sure to include the mongodb java driver in the classpath.
+You will need a running instance of Dump1090 as well as a MongoDB database. You will also need a recent [JVM][jvm] and [Maven][maven] to install and run this program. If you don't want to use Maven you can still manually compile the .java files and make sure to include the [mongodb java driver][mongodbjavadriver] in the classpath.
+[jvm]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+[maven]: https://maven.apache.org/
+[mongodbjavadriver]: http://mongodb.github.io/mongo-java-driver/
 
 ## Install and run
 

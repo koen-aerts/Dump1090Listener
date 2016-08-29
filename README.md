@@ -20,7 +20,7 @@ You will need a running instance of Dump1090 as well as a MongoDB database. You 
 
 ## MongoDB collection
 
-You can store the collected messages in any collection you wish. You may want to consider creating an index on the "location" field. For instance if your collection is called "messages" you would create the index as follows:
+You can store the collected messages in any collection you wish. You may want to consider creating an index on the "position" field. For instance if your collection is called "messages" you would create the index as follows:
 
     db.messages.createIndex( { position : "2dsphere" } )
 
